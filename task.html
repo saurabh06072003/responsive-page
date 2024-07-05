@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CleverBooks</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        section {
+            padding: 60px 0;
+            background-size: cover;
+            background-position: center;
+            color: #fff;
+        }
+
+        h1, h2 {
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        p {
+		    color: #FFFFFF;
+           
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background: #007bff;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .btn:hover {
+            background: #000000;
+        }
+
+      
+        header {
+            background: #333;
+            color: #fff;
+            padding: 10px 0;
+        }
+
+        header nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+
+        header nav a:hover {
+            text-decoration: underline;
+        }
+
+       
+        .hero {
+            background-image: url("pexels1.jpg");
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 48px;
+        }
+
+        .hero p {
+            font-size: 18px;
+        }
+
+        
+        .problems {
+            background-image: url("pexels2.jpg");
+        }
+
+        
+        .metrics {
+            background-image: url("pexels.jpg");
+        }
+
+        .icons {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        .icons div {
+            flex: 1;
+            margin: 10px;
+            min-width: 200px;
+            text-align: center;
+        }
+
+       
+        .reviews {
+            background-image: url("pexels1.jpg");
+        }
+
+        .review {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .review p {
+            max-width: 600px;
+            text-align: center;
+        }
+
+        
+        .target {
+            background-image: url("pexels2.jpg");
+        }
+
+        .tabs {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        .tab {
+            flex: 1;
+            min-width: 200px;
+            margin: 10px;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.8);
+            border: 1px solid #ddd;
+            text-align: center;
+        }
+
+        
+        .cta {
+            background-image: url("pexels.jpg");
+            color: #fff;
+            text-align: center;
+        }
+
+        .cta h2 {
+            color: #fff;
+        }
+
+        
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+    </style>
+</head>
+<body>
+
+    
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    <a href="#">CleverBooks</a>
+                </div>
+                <div class="menu">
+                    <a href="#hero">Home</a>
+                    <a href="#problems">Problems Solved</a>
+                    <a href="#metrics">Metrics</a>
+                    <a href="#reviews">Reviews</a>
+                    <a href="#target">Problem Target</a>
+                    <a href="#cta">Get Started</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    
+    <section id="hero" class="hero">
+        <div class="container">
+            <h1>CleverBooks</h1>
+            <p>Your gateway to innovation and creativity</p>
+            <a href="#" class="btn">Get Started</a>
+        </div>
+    </section>
+
+    
+    <section id="problems" class="problems">
+        <div class="container">
+            <h2>Key Problems Solved</h2>
+           <center> <p>Highlight the key issues targeted by CleverBooks.</p></center>
+        </div>
+    </section>
+
+    
+    <section id="metrics" class="metrics">
+        <div class="container">
+            <h2>Key Metrics</h2>
+            <div class="icons">
+                <div>
+                    <img src="icon1.png" alt="Icon 1">
+                    <p>Feature 1</p>
+                </div>
+                <div>
+                    <img src="icon2.png" alt="Icon 2">
+                    <p>Feature 2</p>
+                </div>
+                <div>
+                    <img src="icon3.png" alt="Icon 3">
+                    <p>Feature 3</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <section id="reviews" class="reviews">
+        <div class="container">
+            <h2>Reviews</h2>
+            <div class="review">
+                <p>"CleverBooks has transformed the way we manage our inventory. Highly recommended!" - User A</p>
+                <p>"An innovative solution for modern businesses." - User B</p>
+            </div>
+        </div>
+    </section>
+
+    
+    <section id="target" class="target">
+        <div class="container">
+            <h2>Problem Target</h2>
+            <div class="tabs">
+                <div class="tab">
+                    <h3>Feature 1</h3>
+                    <p>Description of feature 1.</p>
+                </div>
+                <div class="tab">
+                    <h3>Feature 2</h3>
+                    <p>Description of feature 2.</p>
+                </div>
+                <div class="tab">
+                    <h3>Feature 3</h3>
+                    <p>Description of feature 3.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <section id="cta" class="cta">
+        <div class="container">
+            <h2>Grow faster than you think</h2>
+            <a href="#" class="btn">Start Now</a>
+        </div>
+    </section>
+
+    
+    <footer>
+        <div class="container">
+            <p>About CleverBooks</p>
+            <p>Address: 123 Main Street, City</p>
+        </div>
+    </footer>
+
+</body>
+</html>
